@@ -90,4 +90,11 @@ public class MaquinaExpendedoraSimple {
     public void setPrecioBillete(int precioACambiar) {
          precioBillete = precioACambiar;
     }
+    /**
+     *Nos permite reducir el valor del precio en una cantidad 
+     *pasado como parámetro.
+     */
+    public void reducirPrecio(int precioAReducir){
+        precioBillete = precioBillete - precioAReducir;
+    }
 }
